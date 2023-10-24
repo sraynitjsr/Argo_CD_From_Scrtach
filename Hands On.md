@@ -4,3 +4,8 @@
 
 ## Here's a basic overview of how to use Argo CD to manage application deployments :-
 
+#### Installing Argo CD :-
+##### You can install Argo CD on your Kubernetes cluster using tools like kubectl, Helm, or Kustomize. Here's an example of installing Argo CD using Helm ========>>>>>>>>>>
+###### kubectl create namespace argocd
+###### helm repo add argo https://argoproj.github.io/argo-helm
+###### helm install argocd argo/argo-cd -n argocd
